@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Espace Paris Coiffure - Salon de Coiffure à Bar-le-Duc</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Espace Paris Coiffure</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#accueil" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#couleurs" class="nav-link">Couleurs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galerie" class="nav-link">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#avis" class="nav-link">Avis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reservation" class="nav-link reservation-btn">Réserver</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h2>Art et Passion du Cheveu</h2>
+            <p>Découvrez notre salon de coiffure au cœur de Bar-le-Duc</p>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn-primary">Réserver en ligne</a>
+                <a href="#contact" class="btn-secondary">Nous contacter</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="Photos/5.jpg" alt="Salon Espace Paris Coiffure">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Coupe Homme</h3>
+                    <p>Coupes modernes et classiques adaptées à votre style</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Coupe Femme</h3>
+                    <p>Tendances, mises en forme et coupes personnalisées</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Coloration</h3>
+                    <p>Colorations expertes et soins de la couleur</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Soins</h3>
+                    <p>Soins capillaires et traitements revitalisants</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Coiffure Mariage</h3>
+                    <p>Mises en beauté et coiffures pour occasions spéciales</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Enfants</h3>
+                    <p>Coupes et coiffures pour les plus jeunes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <h2>Galerie</h2>
+            <div class="gallery-carousel">
+                <button class="gallery-nav prev" onclick="scrollGallery(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="gallery-nav next" onclick="scrollGallery(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="Photos/10.jpg" alt="Réalisation 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/3.jpg" alt="Réalisation 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/4.jpg" alt="Réalisation 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/7.jpg" alt="Réalisation 4">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/8.jpg" alt="Réalisation 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/1.jpg" alt="Réalisation 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Colors Section -->
+    <section id="couleurs" class="colors">
+        <div class="container">
+            <div class="colors-content">
+                <div class="colors-image">
+                    <img src="Photos/2.png.avif" alt="Nos colorations">
+                </div>
+                <div class="colors-text">
+                    <h2>Nos Colorations</h2>
+                    <p>Découvrez notre expertise en coloration ! Des teintes sublimes qui révèlent votre personnalité et mettent en valeur votre beauté naturelle.</p>
+                    <p>Je vous propose des services personnalisés : des mèches subtiles aux colorations complètes, en passant par les balayages modernes et les ombrés tendance.</p>
+                    <div class="colors-features">
+                        <div class="color-feature">
+                            <i class="fas fa-palette"></i>
+                            <span>Colorations sur-mesure</span>
+                        </div>
+                        <div class="color-feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Produits naturels</span>
+                        </div>
+                        <div class="color-feature">
+                            <i class="fas fa-star"></i>
+                            <span>Résultat durable</span>
+                        </div>
+                    </div>
+                    <a href="https://planity.fr/paris-coiffure-bar-le-duc" target="_blank" class="btn-colors">
+                        <i class="fas fa-calendar-check"></i>
+                        Réserver ma coloration
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="avis" class="testimonials">
+        <div class="container">
+            <h2>Ce que nos clients disent</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"Venue sans RDV, on m'a proposé un choix de coiffure pour la rentrée. Avec conseils judicieux. Équipe agréable et souriante."</p>
+                    <div class="reviewer-info">
+                        <p class="reviewer-name">Fusee720</p>
+                    </div>
+                    <div class="salon-response">
+                        <p><strong>Espace Paris Coiffure (propriétaire) :</strong> Merci pour votre message Et vos photos C'était un plaisir de vous revoir Au plaisir</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"J'avais demandée un balayage léger, j'en suis ravie ! Merci à Rita 😊"</p>
+                    <div class="reviewer-info">
+                        <p class="reviewer-name">Marie</p>
+                    </div>
+                    <div class="salon-response">
+                        <p><strong>Espace Paris Coiffure (propriétaire) :</strong> Merci pour votre gentil message Au plaisir</p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-reviews-link">
+                <a href="https://share.google/EjQZ8NDxodZnBOEJK" target="_blank" class="btn-all-reviews">
+                    <i class="fas fa-star"></i>
+                    Voir tous les avis sur Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>À Propos de Paris Coiffure</h2>
+                    <p>Depuis plus de 15 ans, notre salon met son savoir-faire et sa passion au service de votre beauté. Notre équipe de coiffeurs professionnels vous accompagne dans le choix de votre nouvelle coupe, couleur ou soin.</p>
+                    <p>Nous utilisons des produits de qualité supérieure et nous formons continuellement aux dernières tendances pour vous offrir un service d'excellence.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Produits professionnels</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Conseils personnalisés</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Ambiance chaleureuse</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Photos/9.jpg" alt="Intérieur du salon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Réservez Votre Rendez-vous</h2>
+            <p>Réservez facilement votre rendez-vous en ligne via l'application Planity</p>
+            <a href="https://planity.fr/paris-coiffure-bar-le-duc" target="_blank" class="btn-reservation">
+                <i class="fas fa-calendar-check"></i>
+                Réserver sur Planity
+            </a>
+            <p class="reservation-info">Ou appelez-nous directement au <a href="tel:+33329456071">+33 3 29 45 60 71</a></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Adresse</h3>
+                        <p>15 rue Jean Jacques Rousseau<br>55000 Bar-le-Duc</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Téléphone</h3>
+                        <p><a href="tel:+33329456071">+33 3 29 45 60 71</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Facebook</h3>
+                        <p><a href="https://www.facebook.com/espacepariscoiffure/photos?locale=fr_FR" target="_blank">Suivez-nous sur Facebook</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Horaires</h3>
+                        <p>Lundi: Fermé<br>Mardi: 09:00–12:00, 13:30–18:30<br>Mercredi: 09:00–18:30<br>Jeudi: 09:00–18:30<br>Vendredi: 09:00–18:30<br>Samedi: 09:00–16:30<br>Dimanche: Fermé</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Espace Paris Coiffure</h3>
+                    <p>Votre salon de coiffure au cœur de Bar-le-Duc</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/espacepariscoiffure/photos?locale=fr_FR" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Utiles</h3>
+                    <ul>
+                        <li><a href="#services">Nos Services</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#reservation">Réservation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>15 rue Jean Jacques Rousseau<br>55000 Bar-le-Duc</p>
+                    <p><a href="tel:+33329456071">+33 3 29 45 60 71</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Espace Paris Coiffure. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
