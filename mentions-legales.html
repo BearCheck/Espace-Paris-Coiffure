@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales - Espace Paris Coiffure</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .legal-page {
+            padding: 100px 20px 40px;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f8f9fa 0%, #f0f8f4 100%);
+        }
+        .legal-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .legal-container h1 {
+            color: #333;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #ff8c42, #4a9d4a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .legal-container h2 {
+            color: #333;
+            margin: 2rem 0 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #ff8c42;
+            padding-bottom: 0.5rem;
+        }
+        .legal-container p, .legal-container li {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .legal-container ul {
+            margin-left: 2rem;
+        }
+        .legal-container strong {
+            color: #ff8c42;
+        }
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            color: #ff8c42;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .info-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 10px;
+            border-left: 3px solid #ff8c42;
+        }
+        .info-item strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+        @media (max-width: 768px) {
+            .legal-page {
+                padding: 80px 15px 30px;
+            }
+            .legal-container {
+                padding: 2rem 1.5rem;
+            }
+            .legal-container h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>Espace Paris Coiffure</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="legal-page">
+        <div class="container">
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                Retour à l'accueil
+            </a>
+            
+            <div class="legal-container">
+                <h1>Mentions Légales</h1>
+                
+                <h2>1. Éditeur du site</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Dénomination de la société</strong>
+                        BJ COIFFURE
+                    </div>
+                    <div class="info-item">
+                        <strong>Nom de l'établissement</strong>
+                        ESPACE PARIS COIFFURE
+                    </div>
+                    <div class="info-item">
+                        <strong>Adresse</strong>
+                        15 RUE JEAN-JACQUES ROUSSEAU<br>
+                        55000 BAR-LE-DUC
+                    </div>
+                    <div class="info-item">
+                        <strong>Numéro SIRET</strong>
+                        898 550 918 00020
+                    </div>
+                    <div class="info-item">
+                        <strong>Clef NIC</strong>
+                        00020
+                    </div>
+                </div>
+                
+                <h2>2. Hébergeur du site</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Hébergeur</strong>
+                        GitHub, Inc.<br>
+                        88 Colin P Kelly Jr St<br>
+                        San Francisco, CA 94107<br>
+                        États-Unis
+                    </div>
+                    <div class="info-item">
+                        <strong>Service d'hébergement</strong>
+                        GitHub Pages<br>
+                        https://pages.github.com/
+                    </div>
+                </div>
+                
+                <h2>3. Propriété intellectuelle</h2>
+                <p>L'ensemble du contenu de ce site internet, y compris mais sans se limiter aux textes, images, graphismes, logos, et animations, est la propriété exclusive de BJ COIFFURE (Espace Paris Coiffure) ou de ses partenaires et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.</p>
+                <p>Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces éléments est strictement interdite sans l'autorisation expresse et préalable de BJ COIFFURE.</p>
+                
+                <h2>4. Données personnelles</h2>
+                <p>Conformément à la loi Informatique et Libertés du 6 janvier 1978 modifiée et au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent.</p>
+                <p>Pour exercer ce droit, vous pouvez nous contacter par :</p>
+                <ul>
+                    <li>Courrier postal : 15 RUE JEAN-JACQUES ROUSSEAU, 55000 BAR-LE-DUC</li>
+                    <li>Téléphone : +33 3 29 45 60 71</li>
+                    <li>Email : (à contacter via le formulaire du site)</li>
+                </ul>
+                
+                <h2>5. Cookies</h2>
+                <p>Ce site n'utilise pas de cookies de tracking. Seuls les cookies techniques nécessaires au bon fonctionnement du site peuvent être utilisés.</p>
+                
+                <h2>6. Limitation de responsabilité</h2>
+                <p>BJ COIFFURE s'efforce de fournir sur ce site des informations aussi précises que possible. Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.</p>
+                
+                <h2>7. Droit applicable et juridiction compétente</h2>
+                <p>L'ensemble du site ainsi que les termes et conditions qui y sont associés sont régis par le droit français. Tout litige relatif à l'utilisation du site sera de la compétence exclusive des tribunaux français.</p>
+                
+                <h2>8. Contact</h2>
+                <p>Pour toute question concernant les mentions légales ou le site internet, vous pouvez nous contacter :</p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Adresse postale</strong>
+                        ESPACE PARIS COIFFURE<br>
+                        15 RUE JEAN-JACQUES ROUSSEAU<br>
+                        55000 BAR-LE-DUC
+                    </div>
+                    <div class="info-item">
+                        <strong>Téléphone</strong>
+                        +33 3 29 45 60 71
+                    </div>
+                </div>
+                
+                <p style="text-align: center; margin-top: 3rem; color: #999; font-size: 0.9rem;">
+                    Dernière mise à jour : <span id="current-date"></span>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Afficher la date actuelle
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('fr-FR', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        
+        // Menu hamburger (si nécessaire)
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+    </script>
+</body>
+</html>
